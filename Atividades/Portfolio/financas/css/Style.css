@@ -1,0 +1,189 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+body{
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto;
+}
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: #fff;
+	font-size: 1.5rem;
+}
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+
+.cabecalho h5{
+	font-size: 16px;
+}
+nav{
+	display: flex;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.nav{
+	display: flex;
+	font-size: 2rem;
+	flex-wrap: wrap;
+	flex-direction: column;
+	
+}
+
+.inicio{
+	margin-bottom: 6px;
+}
+
+nav h2{
+	padding-left: 1.5rem;
+}
+
+
+
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+section{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+header h2 {
+	font-weight: 100;
+}
+
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 + p {
+	background: #324D3B;
+	color: #333;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, a, h3 {
+	font-weight: 400;
+	font-family: 'Limelight', cursive;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+
+
+h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.2rem/2 sans-serif;
+}
+
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	background: url('../images/pattern.png') center top repeat #EEEEEE;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.95);
+}
+
+p {
+	color: blue;
+	color: #034589;
+}
+
+header,
+footer {
+	background-color:#324D3B;
+	
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: white;
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: rgba(150, 150, 200, .5);
+	color: #333333;
+}
+
+.card1{
+	margin-bottom: 60px;
+}

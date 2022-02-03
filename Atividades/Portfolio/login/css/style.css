@@ -1,0 +1,95 @@
+body{
+
+    background-color: #1A2721;
+
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Spartan', sans-serif;;
+
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+section #title{
+    color: white;
+    font-size: 25px;
+}
+
+.allcontent{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items:center;
+    height: 324px;
+    width: 394px;
+    background-color: #FFFF;
+}
+
+.login-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #FFFF;
+    border-radius: 20px;
+    height: 340px;
+    width: 261px;
+}
+
+.login-content,h1{
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    
+    
+}
+
+.logininput{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt,a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.headerlogin{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.iconify{
+    font-size: 40px;
+    
+}
+
+
+.logininput, p{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.logininput, input{
+    border-radius: 2rem;
+    border-color: rgb(147, 129, 99);
+}
+
+.bt,a:hover{
+    color: rgb(87, 70, 37);
+}

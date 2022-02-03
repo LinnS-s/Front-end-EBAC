@@ -1,0 +1,104 @@
+body{
+    background-color: #15261fd1;
+    font-family: 'Spartan', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #2c3a3459;
+    color: white;
+    border-radius: 2rem;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+.iconify{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.inicio{
+    margin-bottom: 0.5rem;
+}
+
+
+.container-sesion{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 20px auto;
+    
+}
+
+    .card {
+    
+        width: 300px;
+        height: 240px;
+        color: white;
+        background: rgb(25,91,105);
+        background: linear-gradient(22deg, rgba(25,91,105,1) 39%, rgba(159,149,237,1) 96%, rgba(168,122,208,1) 100%, rgba(76,131,1,1) 100%);
+        margin-bottom: 20px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 30px;
+        
+    }
+
+
+    .bt{
+        background: white;
+        width: 30%;
+        border-radius: 60px;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+
+    .card h1{
+        margin:10px;
+    }
+ 
+
+
+
+.bt:hover{
+    
+    border-bottom: 25px solid #a87ad0;
+    transition: 1s;
+    scale: 1s;
+}
+
+.bt a{
+    color: black;
+}
+
+@media (max-width:427px){
+
+        .card {
+            height: 300px;
+        }
+}
+
+
+
+
+
