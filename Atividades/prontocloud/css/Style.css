@@ -28,6 +28,51 @@ body{
     float: left;
 }
 
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form,
+.cognito.c-med .c-forms-form,
+.cognito.c-med .c-forms-form,
+.cog-form__content,
+.cog-header .cog-wrapper .cog-header--left
+div {
+    background-color: #b8c8d6 !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #385874;
+}
+
+.cog-branding.cog-branding--minimal,
+.cog-branding__powered{
+   visibility: hidden !important;
+}
+
+.cog-branding__powered{
+    overflow: hidden;
+    visibility: hidden !important;
+
+}
+
+.cog-body{
+    margin: 0 !important;
+}
+
+.cog-abuse.cog-wrapper{
+    display: none !important;
+    
+    overflow: hidden !important;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
 header{
 display: block;
 width: 100%;
