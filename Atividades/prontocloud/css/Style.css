@@ -21,7 +21,7 @@ body{
 }
 
 .container{
-    width:100% ;
+    max-width: 100%;
     padding: 20px;
     margin: 0 auto;
     display: block;
@@ -62,14 +62,13 @@ div {
     margin: 0 !important;
 }
 
-.cog-abuse.cog-wrapper{
-    display: none !important;
-    
-    overflow: hidden !important;
+.cognito{
+    height: 370px !important;
+    overflow: hidden;
 }
 
 img{
-    width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
