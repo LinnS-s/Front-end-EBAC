@@ -1,0 +1,53 @@
+
+
+
+/* ROOT */
+    @font-face{
+            font-family:'sofi';
+            src: url('../Fonts/sofiapro-light.otf') format('opentype');
+            font-style: normal;
+        }
+
+    body{
+        font-family:'sofi';
+    }
+/* ROOT */
+
+/* ESTILOS DO CABEÇALHO*/
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #130F29;
+        padding-bottom: 10px;
+        
+    }
+
+    img{
+        margin-left:108px;
+    }
+
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 40px;
+        margin-right: 108px;
+    }
+
+/* ESTILOS DO CABEÇALHO*/
+
+/* RODAPÉ*/
+footer{
+    background-color: #130F29;
+    color: #787676;
+    text-align: center;
+    padding: 16px;
+}
+/* RODAPÉ*/
+
+
+
