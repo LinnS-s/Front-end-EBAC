@@ -2,6 +2,10 @@
 
 
 /* ROOT */
+
+*{
+    font-size: 62,5%;
+}
     @font-face{
             font-family:'sofi';
             src: url('../Fonts/sofiapro-light.otf') format('opentype');
@@ -10,6 +14,13 @@
 
     body{
         font-family:'sofi';
+        background-color: #0d0d13;
+    }
+    .container{
+        margin: 60px auto;
+        width: 1280px;
+        height: 720px;
+       
     }
 /* ROOT */
 
@@ -17,13 +28,14 @@
 
     header{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         background-color: #130F29;
         padding-bottom: 10px;
         
     }
-
+    
     img{
         margin-left:108px;
     }
@@ -34,11 +46,89 @@
     a{
         text-decoration: none;
         color: white;
-        font-size: 40px;
-        margin-right: 108px;
+        font-size: 3rem;
+        margin-right: 130px;
     }
 
 /* ESTILOS DO CABEÇALHO*/
+
+/* ESTILOS DA SESSÃO*/
+    .container-bg{
+        height: 500px;
+    }
+    article{
+        padding-top: 66px;
+        margin-left: 108px;
+        padding-bottom: 44px;
+        height: 500px;
+    }
+    section{
+        background-image: url(/Projetos/Fastz/img/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section p{
+        font-size: 1.5rem;
+        margin-bottom: 31px;
+        color: #F3F3F3;
+        
+    }
+
+    section h1{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 51px;
+        color: #F3F3F3;
+        
+    }
+/* ESTILOS DA SESSÃO*/
+
+/* ESTILOS DO FORM*/
+
+.cog-form__container {
+    display: flex !important;
+    justify-content: center !important;
+    width: 390px!important;
+    height: 365px !important;
+    margin-right:130px !important;
+    background-color: #130F29 !important;
+    border-radius: 31px !important;
+}
+
+.cog-form__container {
+    height: 400px !important;
+}
+
+.cog-form__container {
+    overflow: hidden !important;
+}
+
+h1.cog-heading {
+    text-align: center !important;
+    margin-top: 33px !important;
+    margin-bottom: 32px !important;
+    color: white !important;
+    font-size: 40px !important;
+}
+
+button.el-button.cog-button--has-status.cog-button--primary.cog-button--navigation.el-button--default.cog-button.cog-button--submit {
+    background: #FFD25D !important;
+    border: none !important;
+    color: #090808 !important;
+    width: 100% !important;
+    font-size: 1.5rem;
+    margin-bottom: 32px !important;
+}
+
+/* ESTILOS DO FORM*/
 
 /* RODAPÉ*/
 footer{
@@ -46,6 +136,7 @@ footer{
     color: #787676;
     text-align: center;
     padding: 16px;
+    
 }
 /* RODAPÉ*/
 
