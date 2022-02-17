@@ -14,12 +14,13 @@
 
     body{
         font-family:'sofi';
-        background-color: #0d0d13;
+        background: linear-gradient(180deg, #000000 0%, rgba(10, 3, 56, 0.77) 100%);
+        width: 100%;
+        
     }
     .container{
-        margin: 60px auto;
-        width: 1280px;
-        height: 720px;
+        margin: 0 auto;
+        
        
     }
 /* ROOT */
@@ -37,6 +38,7 @@
     }
     
     img{
+        margin-top: 10px;
         margin-left:108px;
     }
 
@@ -53,23 +55,15 @@
 /* ESTILOS DO CABEÇALHO*/
 
 /* ESTILOS DA SESSÃO*/
-    .container-bg{
-        height: 500px;
-    }
+    
     article{
         padding-top: 66px;
         margin-left: 108px;
         padding-bottom: 44px;
-        height: 500px;
+        height: auto !important;
     }
-    section{
-        background-image: url(/Projetos/Fastz/img/background.jpg);
-        background-size: cover;
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
+   
 
-    }
     section{
         display: flex;
         justify-content: space-between;
@@ -109,6 +103,8 @@
 
 .cog-form__container {
     overflow: hidden !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
 }
 
 h1.cog-heading {
@@ -128,6 +124,10 @@ button.el-button.cog-button--has-status.cog-button--primary.cog-button--navigati
     margin-bottom: 32px !important;
 }
 
+.cog-page__navigation.cog-page__navigation--condensed{
+    padding: 0!important;
+}
+
 /* ESTILOS DO FORM*/
 
 /* RODAPÉ*/
@@ -139,6 +139,106 @@ footer{
     
 }
 /* RODAPÉ*/
+
+/* Responsive*/
+    @media (max-width:768px){
+
+         p{
+            
+            font-size: 16px !important;
+        }
+
+        h1{
+            font-size: 26px !important;
+        }
+
+        .cog-form__container {
+            display: flex !important;
+            justify-content: center !important;
+            width: 390px!important;
+            height: 365px !important;
+            background-color: #130F29 !important;
+            border-radius: 31px !important;
+            margin-right:0px !important;
+            margin-bottom: 32px !important;
+        }
+        .cog-input {
+
+            width: 100%!important;
+            margin: 0 auto !important;
+        }
+
+        h1.cog-heading{
+            font-size: 26px !important;
+        }
+
+        button.el-button.cog-button--has-status.cog-button--primary.cog-button--navigation.el-button--default.cog-button.cog-button--submit {
+            width: 100% !important;
+            margin: 0 auto;
+        }
+
+        article{
+            padding-top: 66px;
+            padding-bottom: 44px;
+            height: 500px;
+            margin-left: 0px !important;
+        }
+
+        section{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #130F29;
+            padding-bottom: 10px;
+            
+        }
+
+        img{
+            margin-top: 10px !important;
+            margin-left:0px !important;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 3rem;
+            margin-right: 0px !important;
+        }
+
+    }
+
+    @media (max-width:320px){
+        .cog-input {
+
+            width: 80%!important;
+            margin: 0 auto !important;
+        }
+
+        h1.cog-heading{
+            font-size: 26px !important;
+        }
+
+        button.el-button.cog-button--has-status.cog-button--primary.cog-button--navigation.el-button--default.cog-button.cog-button--submit {
+            width: 80% !important;
+            margin: 0 auto;
+        }
+
+        .cog-form__container {
+            width: 280px !important;
+        }
+    }
+
+/* Responsive*/
+
 
 
 
