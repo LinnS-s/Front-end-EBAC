@@ -242,3 +242,23 @@ footer{
 
 
 
+/*<div class="container">
+<form>
+<h1>
+  Calcule a média de 3 numeros
+</h1>
+  <label for="Fvalor">Valor 1</label>
+  <input type="number" id="a" name="Fvalor">
+  <label for="Fvalor">Valor 2</label> 
+  <input type="number" id="b" name="Fvalor">
+  <label for="Fvalor">Valor 3</label> 
+  <input type="number" id="c" name="Fvalor">
+  <button onclick = "media ()">
+    Obter a Média
+  </button>
+  <div id= "Resultado">
+    
+  </div>
+</form>
+</div>
+*/
