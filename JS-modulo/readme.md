@@ -4,3 +4,7 @@
 - leve novamente a ovelha até à *origem* , antes de sair da *origem* coloque a alfafa no barco.
 - leve a Alfafa até  o  *Destino final* coloque a alfafa do lado do lobo
 - volte  até à *origem* e pegue a ovelha, coloque no barco e leve até o  *Destino final*
+
+# Algoritimo para calcular a média de 3 valores
+
+-https://jsfiddle.net/0yg6L5pv/87/
