@@ -52,6 +52,15 @@
         margin-right: 130px;
     }
 
+    .navegacao{
+        float: right;
+    }
+    
+    .navegacao a{
+        font-weight: bold;
+    }
+    
+
 /* ESTILOS DO CABEÇALHO*/
 
 /* ESTILOS DA SESSÃO*/
@@ -233,7 +242,8 @@ footer{
         }
 
         .cog-form__container {
-            width: 280px !important;
+            width: 250px !important;
+            height: 330px !important;
         }
     }
 

@@ -1,0 +1,54 @@
+
+@font-face{
+        font-family:'sofi';
+        src: url('/Projetos/Fastz/Fonts/sofiapro-light.otf') format('opentype');
+        font-style: normal;
+    }
+
+body{
+    font-family:'sofi';
+    width: 100%;
+    color: white;
+    background: linear-gradient(180deg, #000000 0%, rgba(10, 3, 56, 0.77) 100%);
+    
+}
+.container{
+    margin: 0 auto;
+    
+   
+}
+/* ESTILOS DO CABEÇALHO*/
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #130F29;
+    padding-bottom: 10px;
+    
+}
+
+img{
+    margin-top: 10px;
+    margin-left:108px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    margin-right: 130px;
+}
+
+.navegacao{
+    float: right;
+}
+.navegacao a{
+    font-weight: bold;
+}
+
+/* ESTILOS DO CABEÇALHO*/
