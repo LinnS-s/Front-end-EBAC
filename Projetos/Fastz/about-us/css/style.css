@@ -77,7 +77,6 @@ a{
     max-width: 1280px;
     margin-left: 50px;
     padding-bottom: 30px;
-    border-bottom: solid 7px white;
 }
 
 .container{
@@ -169,9 +168,6 @@ a{
     text-align: center;
 }
 
-footer{
-    
-}
 
 footer{
     background-color: #130F29;
@@ -198,6 +194,10 @@ footer ul h1{
     transition: 0.7s;
 }
 
+a{
+    margin-right: 30px;
+}
+
 
 .gmail:hover{
     color: #D44238;
@@ -220,6 +220,15 @@ footer ul h1{
     .container1
     {
         margin-left: 0px;
+    }
+
+    h1.section-title {
+        margin-left: 46px;
+    }
+
+    .container h1{
+        margin-left: 46px;
+        padding-top: 15px;
     }
     .article{
 
@@ -255,6 +264,65 @@ footer ul h1{
     align-items: center;
     padding-top: 30px;
     margin: 36px;
+    }
+
+}
+@media (max-width:768px) {
+
+    img.png {
+        width: 280px;
+        height: 229px;
+    }
+
+    .caixa-do-perfil {
+        background-color: #130F29;
+        width: 214px;
+        height: 290px;
+        border-radius: 40px;
+    }
+    .container li {
+
+        font-size: 14px;
+        list-style: circle;
+    }
+
+    .caixa-do-perfil img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }   
+
+    .article p {
+        margin-left: 20px;
+    }
+    .section-title {
+        border-bottom: solid white 4px;
+        padding-bottom: 15px;
+        width: 50%;
+        font-size: 34px;
+    }
+
+    .section-title2 {
+        text-align: center;
+        margin-top: 86px;
+        font-size: 20px;
+    } 
+
+    .article p {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    header img {
+        margin-top: 10px;
+        margin-left: 30px;
+        width: 100%;
+        height: auto;
     }
 
 }
