@@ -19,7 +19,7 @@ body{
 
 .all{
     margin: 0 auto;
-    width: 1280px;
+    max-width: 1280px;
 }
 /* ESTILOS DO CABEÇALHO*/
 
@@ -60,6 +60,12 @@ a{
 }
 .navegacao a{
     font-weight: bold;
+    transition: 1s;
+}
+
+.navegacao a:hover{
+    color: rgb(138, 138, 138);
+    transition: 1s;
 }
 
 .section-title{
@@ -68,14 +74,17 @@ a{
 }
 
 .container1{
-    width: 1280px;
+    max-width: 1280px;
     margin-left: 50px;
     padding-bottom: 30px;
     border-bottom: solid 7px white;
 }
 
 .container{
-    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1280px;
     margin-left: 50px;
     padding-bottom: 30px;
 }
@@ -111,6 +120,7 @@ a{
     font-size: 24px;
     margin-left: 20px;
 }
+
 
 /* ESTILOS DA SEÇÃO 1*/
 
@@ -159,6 +169,9 @@ a{
     text-align: center;
 }
 
+footer{
+    
+}
 
 footer{
     background-color: #130F29;
@@ -178,4 +191,70 @@ footer ul h1{
 
 .nol{
     padding: 40px;
+}
+.gmail,
+.linkedin,
+.instagram{
+    transition: 0.7s;
+}
+
+
+.gmail:hover{
+    color: #D44238;
+    height: 60px;  
+}
+.linkedin:hover{
+    color: #0A66C2;
+    height: 60px;  
+}
+.instagram:hover{
+    color: #DA4B5C;
+    height: 60px;  
+}
+
+/* Responsive mode*/
+
+ /* 720px */
+@media (max-width:1024px) {
+    .container,
+    .container1
+    {
+        margin-left: 0px;
+    }
+    .article{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 36px;
+    justify-content: center;
+    }
+    
+
+
+    .article p{
+
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+    .perfil{
+
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    flex-direction: column;
+    }
+
+.caixa-do-perfil {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin: 36px;
+    }
+
 }
