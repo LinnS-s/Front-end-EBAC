@@ -1,7 +1,7 @@
 
 @font-face{
         font-family:'sofi';
-        src: url('/Fonts/sofiapro-light.otf') format('opentype');
+        src: url('../Fonts/sofiapro-light.otf') format('opentype');
         font-style: normal;
     }
 
