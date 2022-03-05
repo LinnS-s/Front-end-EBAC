@@ -245,8 +245,19 @@ footer{
             width: 250px !important;
             height: 330px !important;
         }
-    }
+ 
+        img {
+            margin-top: 10px !important;
+            margin-left: 0px !important;
+            margin-bottom: 26px;
+        }
 
+        a{
+            font-size: 26px;
+        }
+
+    }
+   
 /* Responsive*/
 
 

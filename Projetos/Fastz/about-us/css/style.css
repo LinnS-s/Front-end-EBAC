@@ -268,7 +268,9 @@ a{
 
 }
 @media (max-width:768px) {
-
+    .navegacao a{
+        font-size: 26px;
+    }
     img.png {
         width: 280px;
         height: 229px;
@@ -324,5 +326,32 @@ a{
         width: 100%;
         height: auto;
     }
+}
+/* 345px*/
 
+    @media ( max-width: 375px){
+
+        .article p {
+            margin-left: 0px;
+            font-size: 15px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+        .container h1{
+            width: 50%;
+        }
+        .nol{
+            padding: 0;
+            
+        }
+
+        .nol a {
+            font-size: 40px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+     
 }
