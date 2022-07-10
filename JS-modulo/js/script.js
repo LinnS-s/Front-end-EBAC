@@ -21,22 +21,25 @@ function aprovacao( notas ){
 
 
 
-document.addEventListener('submit', function( evento ){
+
+
+
+  document.getElementById('formulario-01').addEventListener('submit',function(evento){
 
     evento.preventDefault();
     evento.stopPropagation();
-
-    let formulario = document.getElementById('formulario-01');
-
-    let dados = new FormData(formulario);
-
+  
+    let dados = new FormData(this);
     let objeto = {};
-
     let notas = [];
 
     for( let key of dados.keys()) {
-        objeto[key] = dados.get(key);
+      let numero = dados.get(key) 
+      if (!isNaN(numero)){
+        notas.push(numero);
+      }
 
+        objeto[key] = dados.get(key);
         notas.push (parseInt(dados.get(key)));
     }
 
@@ -49,4 +52,6 @@ document.addEventListener('submit', function( evento ){
     aprovacao(notas);
    
 });
+
+
 

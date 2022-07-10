@@ -7,13 +7,16 @@ body{
 .container{
     background-color: white;
     width: 500px;
-    height: 600px;
+    height: 700px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 10%;
 }
+.container,h2{ color: #DF4C4C;
+    font-family:sans-serif;}
 
 #formulario-01{
     display: flex;
@@ -21,6 +24,9 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 50%;
+    border: #b7b7b7 solid 0.4px;
+    padding: 15px;
+    border-radius: 10px;
 }
 #formulario-01,h1{
     color: #DF4C4C;
@@ -37,6 +43,12 @@ body{
 #formulario-01,button{
     margin-top: 10px;
 }
+#formulario-02{
+    border: #b7b7b7 solid 0.4px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 
 input::placeholder{
 color:#000000;
@@ -57,6 +69,7 @@ button{
     background-color: #DF4C4C;
     color: white;
     border: none;
+    cursor: pointer;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
