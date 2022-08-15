@@ -1,4 +1,5 @@
 
+
 function calcularMedia( notas ){
 
     let soma = 0 ;
@@ -32,6 +33,7 @@ function aprovacao( notas ){
     let dados = new FormData(this);
     let objeto = {};
     let notas = [];
+    
 
     for( let key of dados.keys()) {
       let numero = dados.get(key) 
