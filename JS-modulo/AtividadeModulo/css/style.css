@@ -1,10 +1,18 @@
+
+
+
 body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 
 }
-
+/* erros */
+#erro-nome,#msg-erro, #erro-uf, #erro-email, #erro-cep, #erro-telefone,#erro-cidade {
+    color: #f00;
+    margin-top: 5px;
+    font-size:15px
+}
 .Cadastro{
     height: 100vh;
     background-color: rgb(24, 23, 23);
@@ -15,60 +23,83 @@ body{
 
 .cadastroContainer{
     min-height: 600px;
-    width: 400px;
+    width: 600px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     padding: 32px;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.CadastroTitle{
-    margin-bottom: 32px;
-    color: rgb(24, 23, 23);
-}
-
-.cadastro_form{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
 }
 
-.cadastro-input{
+.CadastroTitle{
+    margin-bottom: 32px;
+    text-align: center;
+    background-color: var(--Color-h1);
+    font-size: 28px;
+}
+
+#cadastro_form{
+    width: 80%;
+   display: flex;
+   flex-direction: column;
+}
+
+.cadastro-input  {
+    
     height: 40px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 8px;
-    border: 8px;
-} 
+    margin-top: 10px;
+    
+    
+}
 
-.cadastro-input-border{
-    height: 1px;
+.input-border{
+    display: none;
+    border: 1px  grey solid;
+}
+
+
+
+
+
+.cadastro-button{
+    height: 40px;
     width: 100%;
-    margin-bottom: 10px;
-    background-color: rgb(99, 95, 95);
-    transition: 3s ease-in;
+    box-sizing: border-box;
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .login{
     margin-top: 18px;
     text-decoration: none;
     color: rgb(24, 23, 23);
+    text-align: center;
+    
 }
 
 .cadastro-input{
-    border-radius: 8px;
+    cursor: pointer;
+    border-top: none;
+    border-bottom: 1px black solid;
+    border-left: none;
+    border-right:none ;
+    
+    
 }
 
-.cadastro-input-border::after{
-    content: '';
-    display: block;
-    height: 1px;
-    width: 0;
-    margin-bottom: 16px;
-    background-color: rgb(99, 95, 95);
-}
+
+
+
+
+
+     

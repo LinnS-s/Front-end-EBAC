@@ -10,32 +10,34 @@
 <body>
     <main class="Cadastro">
         <div class="cadastroContainer">
-            <h1 class="CadastroTitle">Faça o seu Cadastro</h1>
-            <form class="cadastro_form">
-                <input class="cadastro-input" type="text" placeholder="digite seu Nome">
-                <span class="cadastro-input-border"></span>
+            <span id="msg-erro"></span>
+            <h1 class="CadastroTitle">FAÇA O SEU CADASTRO </h1>
+            <form id="cadastro_form">
+                <input class="cadastro-input" id="nome"  type="text" name="nome" placeholder="Digite seu Nome">
+                <span  id="erro-nome"></span>
 
-                <input class="cadastro-input" type="email" placeholder="digite o seu email">
-                <span class="cadastro-input-border"></span>
+                <input class="cadastro-input" id="email" name="email" placeholder="Digite o seu email">
+                <span  id="erro-email"></span>
 
-                <input class="cadastro-input" type="number" placeholder="digite seu Telefone">
-                <span class="cadastro-input-border"></span>
+                <input class="cadastro-input" id="telefone"  type="number" name="telefone" placeholder="Digite seu Telefone">
+                <span  id="erro-telefone"></span>
 
-               
-                <input class="cadastro-input" type="number" placeholder="digite seu Cep">
-                <span class="cadastro-input-border"></span>
+                <input class="cadastro-input"  id="cep" type="number" name="cep" placeholder="Digite seu Cep">
+                <span  id="erro-cep"></span>
 
-                <input class="cadastro-input" type="text" placeholder="digite sua Cidade">
-                <span class="cadastro-input-border"></span>
+                <input class="cadastro-input" id="cidade" name="cidade" type="text" placeholder="Digite sua Cidade">
+                <span id="erro-cidade"></span>
+
+                <input class="cadastro-input" id="uf" name="uf"  type="text" placeholder="Digite seu Uf">
+                <span  id="erro-uf"></span>
+
+                <button class="cadastro-button" type="submit"id="enviar"> Enviar </button>
                 
-                <input class="cadastro-input" type="text" placeholder="digite seu Uf">
-                <span class="cadastro-input-border"></span>
-
-                <input class="cadastro-input" class = "submit "type="submit">
-                <a class="login" href="#"> Já sou cadastrado </a>
+            
 
             </form>
         </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
