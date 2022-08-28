@@ -81,6 +81,7 @@ function ValidarCadastro(event){
          // validação do campo UF
          if(uf.value ==""){
             contErro += 1;
+            event.preventDefault()
             document.getElementById("uf").style.borderColor = "red"
             document.getElementById("erro-uf").innerHTML = "O campo não pode estar vazio"
 
@@ -89,6 +90,7 @@ function ValidarCadastro(event){
             document.getElementById("erro-uf").innerHTML = "ok"
             document.getElementById('erro-uf').style.color="green"
         } else{
+            event.preventDefault()
             document.getElementById('uf').style.borderColor='red'
             document.getElementById('erro-uf').innerHTML = "Revise a UF"
         }
