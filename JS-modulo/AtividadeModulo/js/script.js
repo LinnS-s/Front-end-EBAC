@@ -31,8 +31,9 @@ function ValidarCadastro(event){
         } else if(regexName.test(nome.value)){
             event.preventDefault()
             document.getElementById('nome').style.borderColor = "green"
-            document.getElementById('erro-name').innerHTML = "ok"
-            document.getElementById('erro-name').style.color = "green"
+            document.getElementById('erro-nome').innerHTML = ""
+            document.getElementById('erro-nome').style.color = "green"
+        
         }
          else{
             document.getElementById('msg-erro').innerHTML = "Verifique os Campos em vermelho"
