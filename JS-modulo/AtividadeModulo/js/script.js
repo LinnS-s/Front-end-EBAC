@@ -15,6 +15,7 @@ function ValidarCadastro(event){
     const uf = document.getElementById("uf")
     const regexmail = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     const RegexUf = /\b\w{2}\b/i;
+    const regexName = /[A-z][ ][A-z]/
     const submit = document.getElementById("enviar")
     var contErro = 0;
   
@@ -26,11 +27,18 @@ function ValidarCadastro(event){
             document.getElementById("nome").style.borderColor="red";
             document.getElementById("erro-nome").innerHTML = "O campo não pode estar vazio"
             document.getElementById("erro-nome").style.color="red"
-        } else{
-            document.getElementById('msg-erro').innerHTML = ""
-            document.getElementById("nome").style.borderColor="";
-            document.getElementById("erro-nome").innerHTML = "digite um nome"
-            document.getElementById("erro-nome").style.display="none"
+
+        } else if(regexName.test(nome.value)){
+            event.preventDefault()
+            document.getElementById('nome').style.borderColor = "green"
+            document.getElementById('erro-name').innerHTML = "ok"
+            document.getElementById('erro-name').style.color = "green"
+        }
+         else{
+            document.getElementById('msg-erro').innerHTML = "Verifique os Campos em vermelho"
+            document.getElementById("nome").style.borderColor="red";
+            document.getElementById("erro-nome").innerHTML = "Digite um nome Valido"
+            
         }
 
     // validação do campo email
