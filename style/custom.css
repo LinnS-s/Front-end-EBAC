@@ -1,30 +1,234 @@
 
+/* root */
+*{
+    font-family: 'Poppins', sans-serif;
+}
 body{
+
+}
+
+/* paleta de cores */
+
+.CordeFundo{
     background-color: #F0F0F0;
 }
 
-.card{
-    width: 32%;
-    float: left;
-    margin: 5px;
+.CorPrimaria{
+    color: #8962EE;
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: 500px;
-    border-radius: 8px;
+.card1{
+    background-color: #BF2A21;
+    color: white;
+}
+.card2{
+    background-color: #255F32;
+    color: white;
+}
+.cardCollor3{
+   
 }
 
-.btn-primary{
-    margin: 10px;
+.Input-Border{
+    color: #D1CFD6;
 }
 
-section{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+#sobre h1{
+    margin-top: 40px;
+    color: #8962EE;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-input,textarea{
-    margin-bottom: 1rem;
+#sobre p{
+    color: #21325E;;
 }
+
+
+/* Conteúdo em telas grandes e medias */
+
+/* Estilos */
+
+ul{
+    list-style: none;
+    font-weight:800;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+
+li a:visited{
+    color: #8962EE;
+    text-decoration: none;
+    
+}
+
+li a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+article p{
+    font-size: 27px;
+}
+
+article h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+#sobre{ 
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 18px;
+}
+
+#Quest{
+    background: linear-gradient(180deg, #7E68B6 0%, rgba(28, 24, 201, 0.5) 100%);
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 18px;
+}
+
+
+    
+
+.btn{
+    background-color: #8962EE;
+    color: white;
+    font-weight: bold;
+    width: 410px;
+    height: 76px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 34px;
+
+}
+
+/* disabled */
+.rocket{
+    margin: 0 auto;
+    border-radius: 20px;
+    height:367px;
+    width: 358px;
+    margin-left: 180px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+#Quest p{
+    text-align: center;
+    font-size: 24px;
+    font-weight:800;
+    margin-bottom: 9px;
+}
+#Quest h2{
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+
+
+.card1, .card2, .card3{
+    background-color: white;
+    height: 300px;
+    color: black;
+    width: 284px;
+    height: 122px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 224px;
+}
+
+.card1{
+    height: 295px;
+    margin-left: 145px;
+    margin-right: 155px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.card3{
+    height: 295px;
+    margin-right: 145px;
+    margin-bottom: 0px;
+    margin-left: 155px;
+    margin-right: 0px;
+}
+
+.card2{
+    height: 295px;
+}
+
+.CardContainer{
+    margin-top: 96px;
+    
+}
+
+
+.btn-card1{
+    height: 40px;
+    width: 104px;
+    left: 858px;
+    top: 1203px;
+    
+    margin-bottom: 9px;
+    border-radius: 9px;
+    border: none;
+    background-color: #BF2A21;
+    color: white;
+    
+}
+.btn-card2{
+    height: 40px;
+    width: 104px;
+    left: 858px;
+    top: 1203px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    border: none;
+    background-color: #255F32;
+    color: white;
+    
+}
+.btn-card3{
+    height: 40px;
+    width: 104px;
+    left: 858px;
+    top: 1203px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    border: none;
+    background-color: #214DBF;
+    color: white;
+
+    
+}
+
+.cardtag1{
+    background-color: #BF2A21;
+    border-radius: 10px;
+    padding-top: 7px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 212.38px;
+    height: 207px;
+}
+
+
+
 

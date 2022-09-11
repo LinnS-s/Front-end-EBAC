@@ -6,161 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/BootStrap/Projeto/bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style/custom.css">
+    <link rel="icon" href="/BootStrap/Projeto/UX_UI/Imgs//xp.png">
 
-    <title>Document</title>
+    <!-- Fonte do projeto -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lexend+Mega&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300&family=Secular+One&display=swap" rel="stylesheet">
+
+    <title>SPXP</title>
 </head>
-<body>
+<body class="CordeFundo">
 
-    <header>
+    <header style="background-color: white;
+                    padding-top:20px ;
+                    padding-bottom:20px">
         <div class="container">
             <div class="row">
                 <div class="col">
+                    <img src="/BootStrap/Projeto/UX_UI/Imgs/spo3XP.png" style="margin-top: 5px;"width="130"  alt="SP03XP">
 
-                    <h1>logo</h1>
-
+                   
                   
                 </div>
                 <div class="col">
                     <ul class="nav justify-content-end">
-                        <li class="nav-item"><a class = "nav-link active" href="#">home</a></li>
-                        <li class="nav-item"><a class = "nav-link" href="#">sobre</a></li>
-                        <li class="nav-item"><a class = "nav-link" href="#">Produtos</a></li>
-                        <li class="nav-item"><a class = "nav-link" href="#">Contato</a></li> 
+                        <li > <a class="nav-link active" class="CorPrimaria" href="#home">home</a></li>
+                        <li > <a class="nav-link active"  class="CorPrimaria" href="#Minigames">Minigames</a> </li>
+                        <li > <a  class="nav-link active"  class="CorPrimaria" href="#Quiz">Quiz </a></li>
+                        <li  id="home"> <a class="nav-link active"  class="CorPrimaria" href="#Tutoriais">Tutoriais </a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-        <section id="sobre">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-12">
-                        <h2>Sobre nós</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minus nulla soluta dolorum delectus, numquam magni tenetur.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus odio et quos inventore id cupiditate consequatur, debitis neque quae vero, labore asperiores nam magni libero, optio quisquam voluptate sed ex. </p>
+    <!-- Sobre -->
+    <section class="sobreH1"id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    
+                    <article>
+                        <h1>Como funciona?</h1>
+                        <p>Nosso objetivo é reciclar processos de maneira divertida, trazendo uma cultura de aprendizado continúo em qualquer lugar seja os starters ou os Old Melers
+                        os conteúdos <br> são aplicados dentro de pequenas quests, sejam quizz, mini games ou videos tutorias.
+                            </p>
+                    </article>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut velit itaque tenetur minima nisi? Error veritatis dignissimos provident natus voluptates minima dolor animi aut numquam tempora. Similique, doloremque commodi.</p>
-                        <div class="btn btn-lg btn-success">Go!</div>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <img src="/BootStrap/Projeto/imgs/pexels-sound-on-3756879 (3).jpg" class="img-fluid" alt="Alguém levantando um Celular">
-                        
-                    </div>
+                    <a href="#Quest"  class="btn">Decolar !</a>
                 </div>
-            </div>
-        </section>
-
-        <section id="produtos">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-
-                        <h2>Produtos</h2>
-
-                        <div class="card">
-                            <img src="/BootStrap/Projeto/imgs/pexels-julia-m-cameron-4145356.jpg" alt="" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title"> Veja </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magnam.
-                                </p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="/BootStrap/Projeto/imgs/pexels-julia-m-cameron-4145356.jpg" alt="" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title"> Veja </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magnam.
-                                </p>
-                                <a class="btn btn-primary" href="#produto-2">Ver produto</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="/BootStrap/Projeto/imgs/pexels-julia-m-cameron-4145356.jpg" alt="" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title"> Veja </h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, magnam.                                  
-                                </p>
-                                <a class="btn btn-primary" href="#produto-2">Ver produto</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contato">  
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h2>Ficou interesado? Preencha os campos do formulário para receber uma cotação.</h2>
-                        </div>
-                        <div class="col">
-                            <form class="form"> 
-                                <div class="input-group">
-                                    <input class="form-control"type="text" name="nome" placeholder="Digite seu nome">
-                                </div>
-                                <div class="input-group">
-                                    <input class="form-control"type="email" name="email" placeholder="Digite seu email">
-                                </div>
-
-                                <div class="input-group">
-                                    <textarea name="" id="" cols="30" rows="5"></textarea>                                    
-                                </div>
-
-                                <div class="button btn btn-lg btn btn-success" > Solicitar Cotação</div>
-                                
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="modal-1" class="modal fade">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        
-                        <h5 class="modal-title">  Produto 1 </h5>
-                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h6>confira o tamanho dos preços </h6>
-                        <table class="table table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>tamanho</th>
-                                    <th>valor</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>p</td>
-                                    <td>R$ 100</td>
-                                </tr>
-                                <tr>
-                                    <td>M</td>
-                                    <td>R$ 200</td>
-                                </tr>
-                                <tr>
-                                    <td>g</td>
-                                    <td>R$ 300</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class=" btn btn-secondary" data-bs-dismiss="modal" aria-label="Close"> Close </button>
-                    </div>
+                <div class="col-md-4 col-sm-5">
+                    <img class="rocket"src="/BootStrap/Projeto/UX_UI/Imgs/Foguete.jpg" alt="" >
                 </div>
             </div>
         </div>
-    <!-- JavaScript Bundle with Popper -->
-<script src="/BootStrap/Projeto/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+        <!--  Quest Section -->
+        <section id="Quest">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Quest</h2>
+                    </div>
+                </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p style="color:white;">Aprendizado em multiplas formas selecione o<br>ideal pra você</p>
+                        </div>
+                </div>
+
+                <div class="CardContainer"class="container">
+                    <div  style ="height: 390px;"class="row">
+                        <div class="card1"class="col-4">
+                            <div class="cardtag1">
+                                <p><span><iconify-icon icon="icon-park-outline:game-console-one" style="color: white;" width="100" height="100"></iconify-icon>
+                                </span>minigames</p>
+                            </div>
+                            <button class="btn-card1">Detalhes</button>
+                        </div>
+    
+                        <div class="card2"class="col-4">
+                            <p >o<br>ideal pra você</p>
+                            <button class="btn-card2">Detalhes</button>
+                        </div>
+    
+                        <div class="card3"class="col-4">
+                            <p >o<br>ideal pra você</p>
+                            <button class="btn-card3">Detalhes</button>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+    
+   
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 </body>
-</html>
