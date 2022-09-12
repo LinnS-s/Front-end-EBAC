@@ -81,17 +81,15 @@ article h1{
 #sobre{ 
     background-color: white;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 18px;
+    width: 100%;
+    border-radius: 30px;
 }
 
 #Quest{
     background: linear-gradient(180deg, #7E68B6 0%, rgba(28, 24, 201, 0.5) 100%);
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 18px;
+    width: 100%;
+    border-radius: 30px;;
 }
 
 
@@ -101,7 +99,7 @@ article h1{
     background-color: #8962EE;
     color: white;
     font-weight: bold;
-    width: 410px;
+    width: 40%;
     height: 76px;
     margin-left: 100px;
     margin-bottom: 30px;
@@ -112,17 +110,10 @@ article h1{
 }
 
 /* disabled */
-.rocket{
-    margin: 0 auto;
+.img-fluid{
     border-radius: 20px;
-    height:367px;
-    width: 358px;
-    margin-left: 180px;
     margin-top: 80px;
-    margin-bottom: 100px;
-    display: none;
-    
-    
+    width: 50%;
 }
 
 
@@ -146,16 +137,16 @@ article h1{
 
 .btn-card1{
     height: 40px;
-    width: 104px;
+    width: 100px;
     left: 858px;
     top: 1203px;
-    margin-left: 9px;
     margin-bottom: 9px;
     border-radius: 9px;
     border: none;
     background-color: #BF2A21;
     color: white;
     font-weight: bold;
+    margin-left: 9px;
     
 }
 .btn-card2{
@@ -196,8 +187,8 @@ article h1{
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-left: 90px;
-    width: 55%;
+    width: 80%;
+    
 }
 
 .tagitem1 p{
@@ -211,8 +202,8 @@ article h1{
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-left: 90px;
-    width: 55%;
+    width: 80%;
+
     
 }
 .tagitem3{
@@ -223,19 +214,40 @@ article h1{
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-left: 90px;
-    width: 55%;
+    width: 80%;
     
 }
 
 #card{
-    
+display: flex;
+justify-content: center;
+align-items: center;
 margin-bottom: 70px;
 margin-top: 30px;
     
 
 }
 
+.img-fluid{
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
 
+
+@media (max-width:1200px){
+    .img-fluid,rocket{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    article p{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 20px;
+        height: auto;
+    }
+}
 
 
