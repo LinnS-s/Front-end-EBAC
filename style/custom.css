@@ -70,7 +70,6 @@ li a{
 
 
 
-
 article p{
     font-size: 27px;
 }
@@ -121,6 +120,7 @@ article h1{
     margin-left: 180px;
     margin-top: 80px;
     margin-bottom: 100px;
+    display: none;
     
     
 }
@@ -141,41 +141,7 @@ article h1{
 
 
 
-.card1, .card2, .card3{
-    background-color: white;
-    height: 300px;
-    color: black;
-    width: 284px;
-    height: 122px;
-    margin: 0 auto;
-    border-radius: 10px;
-    margin-bottom: 224px;
-}
 
-.card1{
-    height: 295px;
-    margin-left: 145px;
-    margin-right: 155px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-
-.card3{
-    height: 295px;
-    margin-right: 145px;
-    margin-bottom: 0px;
-    margin-left: 155px;
-    margin-right: 0px;
-}
-
-.card2{
-    height: 295px;
-}
-
-.CardContainer{
-    margin-top: 96px;
-    
-}
 
 
 .btn-card1{
@@ -183,12 +149,13 @@ article h1{
     width: 104px;
     left: 858px;
     top: 1203px;
-    
+    margin-left: 9px;
     margin-bottom: 9px;
     border-radius: 9px;
     border: none;
     background-color: #BF2A21;
     color: white;
+    font-weight: bold;
     
 }
 .btn-card2{
@@ -196,11 +163,13 @@ article h1{
     width: 104px;
     left: 858px;
     top: 1203px;
+    margin-left: 9px;
     margin-bottom: 9px;
     border-radius: 9px;
     border: none;
     background-color: #255F32;
     color: white;
+    font-weight: bold;
     
 }
 .btn-card3{
@@ -208,25 +177,63 @@ article h1{
     width: 104px;
     left: 858px;
     top: 1203px;
+    margin-left: 9px;
     margin-bottom: 9px;
     border-radius: 9px;
     border: none;
     background-color: #214DBF;
-    color: white;
+    color: white; 
+    font-weight: bold;   
 
     
 }
 
-.cardtag1{
+.tagitem1{
+    text-align: center;
     background-color: #BF2A21;
     border-radius: 10px;
     padding-top: 7px;
     color: white;
     margin-top: 20px;
     margin-bottom: 15px;
-    margin-left: 20px;
-    width: 212.38px;
-    height: 207px;
+    margin-left: 90px;
+    width: 55%;
+}
+
+.tagitem1 p{
+    font-family: 20px;
+}
+.tagitem2{
+    text-align: center;
+    background-color: #255F32;
+    border-radius: 10px;
+    padding-top: 7px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+    width: 55%;
+    
+}
+.tagitem3{
+    text-align: center;
+    background-color: #214DBF;
+    border-radius: 10px;
+    padding-top: 7px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+    width: 55%;
+    
+}
+
+#card{
+    
+margin-bottom: 70px;
+margin-top: 30px;
+    
+
 }
 
 
