@@ -251,6 +251,7 @@ margin-top: 30px;
     .btn{
         font-size: 20px;
         height: auto;
+        margin-left: 115px;
     }
 
 
@@ -278,3 +279,36 @@ margin-top: 30px;
     padding-left: 20px;
 }
 
+.enviar{
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 20px;
+    height: auto;
+}
+
+#Contato{
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.contato-article{
+    margin-top: 64px;
+    
+}
+
+.contato-article p{
+    margin-top: 22px;
+    color: #21325E;
+    
+}
+
+.contato-article h1{
+    color: #8962EE;
+}
+
+.form{
+    margin-top: 64px;
+}
