@@ -16,7 +16,7 @@
 
     <title>SPXP</title>
 </head>
-<body  class="CordeFundo">
+<body class="CordeFundo">
 
     <header style="background-color: white;
                     padding-top:20px ;
@@ -91,7 +91,7 @@
                             <div class="tagitem1">
                                 <span><iconify-icon icon="icon-park-outline:game-console-one" style="color: white;" width="48"></iconify-icon><p>Minigames</p></span>
                             </div>
-                            <button class="btn-card1 btn-sm" onclick="abrir()">Detalhes</button>
+                            <button class="btn-card1 btn-sm" onclick="abrir1()">Detalhes</button>
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@
                             <div class="tagitem2">
                                 <span><iconify-icon icon="ic:baseline-quiz" style="color: white;" width="48" height="48"></iconify-icon></iconify-icon><p>Quiz</p></span>
                             </div>
-                            <button class="btn-card2 btn-sm" onclick="abrir()" >Detalhes</button>
+                            <button class="btn-card2 btn-sm" onclick="abrir2()" >Detalhes</button>
                            
                         </div>
                     </div>
@@ -112,13 +112,13 @@
                             <div class="tagitem3">
                                 <span><iconify-icon icon="bx:book-heart" style="color: white;" width="48" height="48"></iconify-icon><p>Tutorias</p></span>
                             </div>
-                            <button class="btn-card3" data-bs-target="#modalExemplo" data-bs-toggle="modal">Detalhes</button>
+                            <button class="btn-card3" onclick="abrir3()" >Detalhes</button>
                         </div>
                     </div>
 
                     <!-- modals card1 -->
 
-                    <div  id="modal" class="modal-content1">
+                    <div  id="modal1" class="modal-content1">
                         <div  class="container">
                             <button  id="fechar" onclick="fechar()" class="btn-close"></button>
                             <div id="ii" class="row">
@@ -144,9 +144,9 @@
                             <button  id="fechar" onclick="fechar()" class="btn-close"></button>
                             <div id="ii" class="row">
                                 <div id="tag-title2" class="col-md-9 align-self-center">
-                                    <iconify-icon icon="bx:book-heart" style="color: white;" width="48" height="48" class="iconfy"></iconify-icon> <p style="
+                                    <iconify-icon icon="ic:baseline-quiz" style="color: white;" width="48" height="48" class="iconfy"></iconify-icon> <p style="
                                     text-align: center;
-                                ">Minigames</p></span>
+                                ">Quiz</p></span>
                                 </div>
                                 <div class="row">
                                     <div id="tag-description" class="col-md-12 ">
@@ -158,7 +158,26 @@
                         </div>
                     </div>
 
+                    <!-- modals card3 -->
 
+                    <div  id="modal3" class="modal-content3">
+                        <div  class="container">
+                            <button  id="fechar" onclick="fechar()" class="btn-close"></button>
+                            <div id="ii" class="row">
+                                <div id="tag-title3" class="col-md-9 align-self-center">
+                                    <iconify-icon icon="bx:book-heart" style="color: white;" width="48" height="48" class="iconfy"></iconify-icon> <p style="
+                                    text-align: center;
+                                ">Tutorias</p></span>
+                                </div>
+                                <div class="row">
+                                    <div id="tag-description" class="col-md-12 ">
+                                        <p  class="ps" style="color: black; text-align: center;"> Jogue jogos inspirados em situações Reais do seu dia </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button"  id="fechar" onclick="fechar()" style="background-color: white; color:black" class="btn-card2" >Jogar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
