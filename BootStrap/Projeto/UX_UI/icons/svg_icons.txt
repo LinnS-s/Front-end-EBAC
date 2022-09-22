@@ -1,3 +1,0 @@
-<iconify-icon icon="icon-park:game-console-one" style="color:white;"></iconify-icon> - Minigame
-<iconify-icon icon="ic:baseline-quiz" style="color: white;"></iconify-icon> - Quiz
-<iconify-icon icon="bx:book-heart" style="color: white;"></iconify-icon> Tutorial
