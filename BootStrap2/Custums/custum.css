@@ -1,0 +1,28 @@
+/* cabeçaçho ---  */
+
+header{
+    background-color: brown;
+    color: aliceblue;
+}
+
+.nav{
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav li{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: rgb(41, 31, 31);
+    cursor: pointer;
+}
+
+/* cabeçaçho ---  */

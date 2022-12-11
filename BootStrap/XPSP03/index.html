@@ -10,7 +10,7 @@
 
     <!-- Fonte do projeto -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lexend+Mega&family=Open+Sans:wght@300;400;700&family=Poppins:wght@300&family=Secular+One&display=swap" rel="stylesheet">
 
@@ -28,6 +28,19 @@
                     </div>
                     <div class="col">
                         <div class="nav justify-content-end ">
+
+                            <nav>
+                                    <ul>
+                                         <a  onclick="abrir1()" class="dropdown-item">MINIGAMES</a>
+                                    </ul>
+                                    <ul>
+                                        <a onclick="abrir2()" class="dropdown-item">QUIZ</a>
+                                   </ul>
+                                   <ul>
+                                    <a onclick="abrir3()"  class="dropdown-item">TUTORIAIS</a>
+                                   </ul>
+                        
+                            </nav>
                         <div class="dropdown">
                             <button  id="btndrop" style="opacity:60%;" class="btn btn-primary dropdown-toggle " data-bs-toggle="dropdown">
                                         menu
@@ -46,6 +59,7 @@
         </div>
           
     </header>
+
     <!-- Sobre -->
     <section class="sobreH1"id="sobre">
         <div class="container">
@@ -59,7 +73,7 @@
                             </p>
                     </article>
 
-                    <a href="#Quest"  class="btn ">Decolar !</a>
+                    <a href="#Quest"  class="btn "> Decolar </a>
                 </div>
                 
                     <div  class="col-md-7 align-self-center align-self-end">
@@ -204,7 +218,7 @@
                             <input type="email" class="form-control" required name="email" placeholder="Digite seu email">
                            </div>
                            <div class="input-group">
-                            <textarea class="form-control" required  value="" title="Isso aqui é um erro" name="" id="" cols="15" rows="5"></textarea>
+                            <textarea class="form-control" required  value="" title="Digite sua sugestão" name="" id="" cols="15" rows="5"></textarea>
                            </div>
                            <button id="enviar" type="submit" class="btn"> Vibrar! </button>
                          
